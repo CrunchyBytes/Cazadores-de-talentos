@@ -1,0 +1,38 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  background: #c1bdba;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.links {
+  text-align: left;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 0 0 90px;
+}
+
+.links: hover {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0 0 70px;
+  
+}
